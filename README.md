@@ -52,29 +52,55 @@ une autre machine connectée au même réseau ?
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
 Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
+*
+debian@BeagleBone:~$ pwd -P
+/home/debian
+*
+debian = User
+
   10. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY
   X et Y représentent vos initiales si vous êtes en binômes.
 
 Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ?
 Qui a les droits d’écriture dessus ? 
 
+  mkdir TP3_LMY_HMT
+
   12. Editez un fichier texte (contenant vos noms – prénoms), et placez ce fichier dans le répertoire 
   créé auparavant.
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
 
+cat Fichier_texte.txt
+
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
 sl ou cmatrix) ?
 
+*
+which cmatrix
+
+sudo apt update
+
+sudo apt install cmatrix
+*
+
 Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
 Ethernet ? 
+*
+ip addr
+*
   a. Quelle est l’adresse IP du BBG ?
+  10.228.134.227
   b. Quelle est le masque de sous réseau ? 
+  255.255.255.0 
   c. Quelle est l’adresse réseau ? 
+  10.228.134
   d. Quelle est la passerelle par défaut ? 
+  10.228.134.1
   e. Quelle est l’adresse MAC du BBG ? 
-  
+  En utilisant la commande arp -a on trouve l'adresse suivante :
+  00:09:0f:09:01:08 
   14. Dans un navigateur, depuis votre poste de travail école, accédez à http://checkip.dyndns.org
 
 Q11. Qu’est-ce qui s’affiche en retour ? 
