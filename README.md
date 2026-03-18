@@ -22,7 +22,8 @@ Q1. Comment pouvez-vous déterminer cette adresse IP ?
      -Une fois la BeagleBone connectée, il faut ecrire le nom d'utilisateur "debian"
      ainsi que le mot de passe "temppwd"
      
-     <img width="657" height="339" alt="image" src="https://github.com/user-attachments/assets/faaf27b9-446c-4d26-b2ae-3666825b75a9" />
+     <img width="657" height="339" alt="Mot de passe" src="https://github.com/user-attachments/assets/9a135ea3-7054-4790-8e1f-6d3f37f66028" />
+
 
 Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
@@ -54,7 +55,7 @@ Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port ut
   -Voici le fichier de configuration avec le contenu demandé pour régler 
   une adresse IP statique
   
-  <img width="661" height="418" alt="image" src="https://github.com/user-attachments/assets/ddad2706-4698-46b3-a7a0-438a2fcc35ca" />
+  <img width="661" height="418" alt="Adress_Statique" src="https://github.com/user-attachments/assets/9562e7a3-9bfa-4ebe-a153-e2960828bfde" />
 
   8. Sauvegardez le fichier et redémarrez le BBG :
 
@@ -65,7 +66,7 @@ Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port ut
 -Cette fois si quand on se reconnecte, il faut utiliser l'adresse IP statique qui est 
 celle inscrite sur la BeagleBone : 10.228.134.227
 
-<img width="452" height="444" alt="image" src="https://github.com/user-attachments/assets/15c21b04-ba48-48e1-a9d2-ebd0e0ec5f02" />
+<img width="452" height="444" alt="config_Adressestatique" src="https://github.com/user-attachments/assets/253a8817-25d7-458f-8429-64b9f777b0f4" />
 
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
 une autre machine connectée au même réseau ?
@@ -76,9 +77,9 @@ Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 -La commande a utiliser pour savoir dans quel répertoire on se trouve est "pwd -P" 
 elle affichera le contenu ci-dessous :
 
-<img width="238" height="55" alt="image" src="https://github.com/user-attachments/assets/b56351d0-f16a-4516-9eaa-b8b526379dcb" />
+<img width="238" height="55" alt="Repertoireactuel" src="https://github.com/user-attachments/assets/4dee9f59-50a5-4e7a-b50d-b19cd53b0e8b" />
 
-debian = User
+Le repertoire est donc le repertoire du user
 
   10. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY
   X et Y représentent vos initiales si vous êtes en binômes.
@@ -106,8 +107,7 @@ Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fic
 
 -Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt :
 
-<img width="450" height="52" alt="image" src="https://github.com/user-attachments/assets/acf24ed8-12a4-4750-8ef3-b22415892786" />
-
+<img width="450" height="52" alt="contenudufichier" src="https://github.com/user-attachments/assets/bf72fe6e-7d38-46c1-bc1b-4e9c89781d01" />
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
@@ -120,32 +120,42 @@ Si le logiciel est installé voici ce qui s'affiche :
 
 -Si le logiciel n'est pas installé, il faut utiliser les commandes "sudo apt update" pour mettre a jour :
 
-<img width="661" height="238" alt="image" src="https://github.com/user-attachments/assets/98cee4fa-3062-413e-ae52-e6acb297aef9" />
+<img width="661" height="238" alt="miseajour" src="https://github.com/user-attachments/assets/1deac06f-54e2-4d57-b81f-3a3fff7a5e8e" />
 
 -et ensuite la commande "sudo apt install cmatrix" pour installer le logiciel cmatrix :
 
-<img width="664" height="114" alt="image" src="https://github.com/user-attachments/assets/00af53c7-3ed9-4bac-ac65-3d823c37106f" />
+<img width="664" height="114" alt="installationcmatrix" src="https://github.com/user-attachments/assets/7031f767-a3ff-4e3c-88ea-e3ef9b91cec8" />
 
 Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
 Ethernet ? 
 -Avec la commande "ip a", on obtient les informations de l'adresse IP, le masque et l'adresse MAC :
 
-<img width="658" height="397" alt="image" src="https://github.com/user-attachments/assets/d73d962d-b888-4dfe-b2b0-dcac1930090a" />
+<img width="658" height="397" alt="infoa" src="https://github.com/user-attachments/assets/2e72cf3a-4a09-4ca1-904b-b4a6159d4690" />
 
 -Avec la commande "ip r", on obtient les informations de la passerelle ainsi que de l'adresse réseau :
 
-<img width="560" height="60" alt="image" src="https://github.com/user-attachments/assets/3721cb9a-27f8-4d7f-84b9-d0c3375c017c" />
+<img width="560" height="60" alt="infor" src="https://github.com/user-attachments/assets/e3f96579-0cd3-4de8-b836-535da54004ca" />
 
   a. Quelle est l’adresse IP du BBG ?
+  
   -A la ligne "inet", l'adresse indiquée est : 10.228.134.227
+  
   b. Quelle est le masque de sous réseau ? 
+  
   -Toujours à la ligne "inet", le /24 signifie que l'adresse de sous réseau est : 255.255.255.0
+  
   c. Quelle est l’adresse réseau ? 
+  
   -10.228.134.0
+  
   d. Quelle est la passerelle par défaut ? 
+  
   -A la ligne "default via", la passerelle indiquée est : 10.228.134.1
+  
   e. Quelle est l’adresse MAC du BBG ? 
+  
   -A la ligne "link/ether", l'adresse MAC indiquée est : 20:d7:78:7d:73:5e
+  
   14. Dans un navigateur, depuis votre poste de travail école, accédez à http://checkip.dyndns.org
 
 Q11. Qu’est-ce qui s’affiche en retour ? 
