@@ -15,6 +15,7 @@ Q1. Comment pouvez-vous déterminer cette adresse IP ?
      User : debian / Mot de passe : temppwd
      
      -Inscire l'adresse IP scannée précédemment dans PuTTY
+     
      <img width="459" height="444" alt="image" src="https://github.com/user-attachments/assets/b78f4022-5f7f-4794-ab28-602a6a0a7e97" />
      
      -Une fois la BeagleBone connectée, il faut ecrire le nom d'utilisateur "debian"
