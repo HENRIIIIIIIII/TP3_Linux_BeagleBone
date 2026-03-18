@@ -56,7 +56,8 @@ Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port ut
 
   9. Connectez-vous à nouveau à votre BBG à l’aide de Putty (nouvelle adresse IP).
 
--Cette fois si quand on se reconnecte, il faut utiliser l'adresse IP statique qui est celle inscrite sur la BeagleBone : 10.228.134.227
+-Cette fois si quand on se reconnecte, il faut utiliser l'adresse IP statique qui est 
+celle inscrite sur la BeagleBone : 10.228.134.227
 <img width="452" height="444" alt="image" src="https://github.com/user-attachments/assets/15c21b04-ba48-48e1-a9d2-ebd0e0ec5f02" />
 
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
