@@ -200,7 +200,7 @@ Faites le parallèle avec la réponse à la Q11.
 
 Le format et en element HTML, code source complet de la page.
 
-![section](https://img.shields.io/badge/-Section%20Title-FF5733?style=for-the-badge)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header"/>
 
 ### Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
 Commentez
