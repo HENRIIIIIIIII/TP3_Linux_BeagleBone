@@ -45,11 +45,17 @@ Le port utilisé est le port 22, qui est le port de default du SSH.
   Gateway=10.228.134.1
   DNS=10.228.146.6 10.228.146.7
   DHCP=no
-  7. Sauvegardez le fichier et redémarrez le BBG :
 
-  Sudo reboot
+  Voici le fichier de configuration avec le contenu demandé pour régler une adresse IP statique
+  <img width="661" height="418" alt="image" src="https://github.com/user-attachments/assets/ddad2706-4698-46b3-a7a0-438a2fcc35ca" />
+
+  8. Sauvegardez le fichier et redémarrez le BBG :
+
+  La commande pour sauvegarder et redemarrer est "sudo reboot"
 
   9. Connectez-vous à nouveau à votre BBG à l’aide de Putty (nouvelle adresse IP).
+
+Cette fois si quand on se reconnecte, il faut utiliser l'adresse IP statique qui est celle inscrite sur la BeagleBone : 10.228.134.227
 <img width="452" height="444" alt="image" src="https://github.com/user-attachments/assets/15c21b04-ba48-48e1-a9d2-ebd0e0ec5f02" />
 
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
@@ -57,12 +63,10 @@ une autre machine connectée au même réseau ?
 
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
 Quelle(s) commande(s) utilisez-vous pour le déterminer ?
+
+La commande a utiliser pour savoir dans quel répertoire on se trouve est "pwd -P" elle affichera le contenu ci-dessous :
 <img width="238" height="55" alt="image" src="https://github.com/user-attachments/assets/b56351d0-f16a-4516-9eaa-b8b526379dcb" />
 
-*
-debian@BeagleBone:~$ pwd -P
-/home/debian
-*
 debian = User
 
   10. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY
@@ -70,12 +74,16 @@ debian = User
 
 Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ?
 Qui a les droits d’écriture dessus ? 
+
+Pour créer un répertoire, il faut taper la commande "mkdir" + nom du répertoire 
 <img width="304" height="16" alt="image" src="https://github.com/user-attachments/assets/23bda82f-bf23-429f-b75b-5ccb541fee95" />
 
+Seul l'utilisateur (debian) a les droits d'écriture dans ce répertoire
 
   12. Editez un fichier texte (contenant vos noms – prénoms), et placez ce fichier dans le répertoire 
   créé auparavant.
- <img width="478" height="20" alt="image" src="https://github.com/user-attachments/assets/95973500-3258-42dd-be6c-729ac118dfcc" />
+La commande pour créer un fichier texte est ""
+<img width="478" height="20" alt="image" src="https://github.com/user-attachments/assets/95973500-3258-42dd-be6c-729ac118dfcc" />
 <img width="667" height="414" alt="image" src="https://github.com/user-attachments/assets/9e262e5e-4c17-4cb7-a218-37ae3d683913" />
 
 
