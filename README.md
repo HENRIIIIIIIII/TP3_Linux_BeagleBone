@@ -24,9 +24,9 @@ https://wiki.seeedstudio.com/BeagleBone_Green/
      ainsi que le mot de passe "temppwd"
      
      <img width="657" height="339" alt="Mot de passe" src="https://github.com/user-attachments/assets/9a135ea3-7054-4790-8e1f-6d3f37f66028" />
-
+![divider](https://via.placeholder.com/800x5/00FFAA/00FFAA)
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2)
-
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
 ### Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
 -Le protocole étais selectioné dans putty et est le protocole SSH.
