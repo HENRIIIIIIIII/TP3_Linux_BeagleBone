@@ -3,10 +3,9 @@ Documentation:
 https://wiki.seeedstudio.com/BeagleBone_Green/
 
 Q1. Comment pouvez-vous déterminer cette adresse IP ?
-
-En utilisant le logiciel Advanced IP scaner.
-en recherchant de 10.228.134.0 a 10.228.134.255
-notre IP: 10.228.134.44 
+Pour determiner l'adresse IP de la BeaglBone, nous avons utiliser le logiciel "Advanced IP scanner"
+Il suffit de rechercher les adresse de 10.228.134.0 à 10.228.134.255 pour trouver la notre.
+Une fois le scann fini nous obtenons notre adresse IP qui est : 10.228.134.44
 
   4. Sur votre machine hôte, ouvrez Putty2
     a. Insérez l’adresse IP du BBG déterminée ci-dessus.
@@ -14,12 +13,15 @@ notre IP: 10.228.134.44
     c. Puis, bouton « open ».
   5. Une fois la connexion établie, il faudra vous connecter au BBG via le shell fourni.
         User : debian / Mot de passe : temppwd
+     Inscire l'adresse IP scannée précédemment dans PuTTY
      <img width="459" height="444" alt="image" src="https://github.com/user-attachments/assets/b78f4022-5f7f-4794-ab28-602a6a0a7e97" />
+     
+     Une fois la BeagleBone connectée, il faut ecrire le nom d'utilisateur "debian" ainsi que le mot de passe "temppwd" 
      <img width="657" height="339" alt="image" src="https://github.com/user-attachments/assets/faaf27b9-446c-4d26-b2ae-3666825b75a9" />
 
 Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
-Le protocole étais selectioné dans putty (SSH).
+Le protocole étais selectioné dans putty et est le protocole SSH.
 PuTTY utilise SSH pour ouvrir un terminal sécurisé (Secure Shell).
 
 Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?
