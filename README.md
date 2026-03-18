@@ -90,9 +90,8 @@ Ensuite inscire les noms et prenoms dans ce fichier :
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
 
-Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt
+Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt :
 <img width="449" height="55" alt="image" src="https://github.com/user-attachments/assets/c6b243ab-c417-449a-bdca-6c9b11d6ad4b" />
-
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
