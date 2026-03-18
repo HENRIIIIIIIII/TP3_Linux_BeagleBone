@@ -1,6 +1,7 @@
 # TP3_Linux_BeagleBone
 Documentation:
 https://wiki.seeedstudio.com/BeagleBone_Green/
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header"/>
 
 ### Q1. Comment pouvez-vous déterminer cette adresse IP ?
 
@@ -24,6 +25,7 @@ https://wiki.seeedstudio.com/BeagleBone_Green/
      
      <img width="657" height="339" alt="Mot de passe" src="https://github.com/user-attachments/assets/9a135ea3-7054-4790-8e1f-6d3f37f66028" />
 
+![divider](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2)
 
 ### Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
@@ -199,8 +201,6 @@ Quel est format de la réponse ?
 Faites le parallèle avec la réponse à la Q11.
 
 Le format et en element HTML, code source complet de la page.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header"/>
 
 ### Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
 Commentez
