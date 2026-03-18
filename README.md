@@ -3,6 +3,7 @@ Documentation:
 https://wiki.seeedstudio.com/BeagleBone_Green/
 
 Q1. Comment pouvez-vous déterminer cette adresse IP ?
+
 -Pour determiner l'adresse IP de la BeaglBone, nous avons utiliser le logiciel "Advanced IP scanner"
 -Il suffit de rechercher les adresse de 10.228.134.0 à 10.228.134.255 pour trouver la notre.
 -Une fois le scann fini nous obtenons notre adresse IP qui est : 10.228.134.44
