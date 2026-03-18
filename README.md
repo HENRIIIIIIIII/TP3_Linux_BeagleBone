@@ -82,14 +82,15 @@ Seul l'utilisateur (debian) a les droits d'écriture dans ce répertoire
 
   12. Editez un fichier texte (contenant vos noms – prénoms), et placez ce fichier dans le répertoire 
   créé auparavant.
-La commande pour créer un fichier texte est ""
+La commande pour créer un fichier texte est "mkdir" + nom du fichier.txt
 <img width="478" height="20" alt="image" src="https://github.com/user-attachments/assets/95973500-3258-42dd-be6c-729ac118dfcc" />
-<img width="667" height="414" alt="image" src="https://github.com/user-attachments/assets/9e262e5e-4c17-4cb7-a218-37ae3d683913" />
 
+Ensuite inscire les noms et prenoms dans ce fichier :
+<img width="667" height="414" alt="image" src="https://github.com/user-attachments/assets/9e262e5e-4c17-4cb7-a218-37ae3d683913" />
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
 
-Avec la commande cat Fichier_texte.txt
+Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt
 <img width="449" height="55" alt="image" src="https://github.com/user-attachments/assets/c6b243ab-c417-449a-bdca-6c9b11d6ad4b" />
 
 
@@ -97,11 +98,13 @@ Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
 sl ou cmatrix) ?
 
-Pour tester si un logiciel est installé, il faut utiliser la commande "which cmatrix". Si le logiciel est installé voici ce qui s'affiche
+Pour tester si un logiciel est installé, il faut utiliser la commande "which cmatrix". Si le logiciel est installé voici ce qui s'affiche :
 <img width="388" height="52" alt="image" src="https://github.com/user-attachments/assets/2c1cbc06-37b4-4334-a2d0-e50c7554e500" />
 
-Si le logiciel n'est pas installé, il faut utiliser les commandes "sudo apt update" pour mettre a jour et "sudo apt install cmatrix" pour installer le logiciel cmatrix
+Si le logiciel n'est pas installé, il faut utiliser les commandes "sudo apt update" pour mettre a jour :
 <img width="661" height="238" alt="image" src="https://github.com/user-attachments/assets/98cee4fa-3062-413e-ae52-e6acb297aef9" />
+
+et ensuite la commande "sudo apt install cmatrix" pour installer le logiciel cmatrix :
 <img width="664" height="114" alt="image" src="https://github.com/user-attachments/assets/00af53c7-3ed9-4bac-ac65-3d823c37106f" />
 
 Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
