@@ -125,7 +125,7 @@ Seul l'utilisateur (debian) a les droits d'écriture dans ce répertoire
 
 ---
 
-###Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
+### Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
 
 -Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt :
 
