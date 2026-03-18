@@ -2,7 +2,7 @@
 Documentation:
 https://wiki.seeedstudio.com/BeagleBone_Green/
 
-###Q1. Comment pouvez-vous déterminer cette adresse IP ?
+### Q1. Comment pouvez-vous déterminer cette adresse IP ?
 
 -Pour determiner l'adresse IP de la BeaglBone, nous avons utiliser le logiciel "Advanced IP scanner"
 -Il suffit de rechercher les adresse de 10.228.134.0 à 10.228.134.255 pour trouver la notre.
@@ -25,17 +25,17 @@ https://wiki.seeedstudio.com/BeagleBone_Green/
      <img width="657" height="339" alt="Mot de passe" src="https://github.com/user-attachments/assets/9a135ea3-7054-4790-8e1f-6d3f37f66028" />
 
 
-###Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
+### Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
 -Le protocole étais selectioné dans putty et est le protocole SSH.
 -PuTTY utilise SSH pour ouvrir un terminal sécurisé (Secure Shell).
 
-###Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?
+### Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?
 
 -Le SSH est un protocole qui s'appuie sur le TCP (couche 4) et les applications (en couche 5).
 -Donc il se trouve dans les couches 4-5.
 
-###Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port utilisé côté serveur
+### Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port utilisé côté serveur
 
 -Il s'appuie sur le protocole TCP.
 -Le port utilisé est le port 22, qui est le port de default du SSH.
@@ -68,7 +68,7 @@ celle inscrite sur la BeagleBone : 10.228.134.227
 
 <img width="452" height="444" alt="config_Adressestatique" src="https://github.com/user-attachments/assets/253a8817-25d7-458f-8429-64b9f777b0f4" />
 
-###Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
+### Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
 une autre machine connectée au même réseau ?
 
   ping <adresse_IP>
@@ -80,7 +80,7 @@ une autre machine connectée au même réseau ?
   nmap <adresse_IP>
   (« Network Mapper ») est un outil open source d'exploration réseau et d'audit de sécurité source: https://nmap.org/man/fr/index.html#man-description
 
-***Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
+### Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
 Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
 -La commande a utiliser pour savoir dans quel répertoire on se trouve est "pwd -P" 
@@ -93,7 +93,7 @@ Le repertoire est donc le repertoire du user
   10. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY
   X et Y représentent vos initiales si vous êtes en binômes.
 
-###Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ?
+### Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ?
 Qui a les droits d’écriture dessus ? 
 
 -Pour créer un répertoire, il faut taper la commande "mkdir" + nom du répertoire 
@@ -118,7 +118,7 @@ Seul l'utilisateur (debian) a les droits d'écriture dans ce répertoire
 
 <img width="450" height="52" alt="contenudufichier" src="https://github.com/user-attachments/assets/bf72fe6e-7d38-46c1-bc1b-4e9c89781d01" />
 
-###Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
+### Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
 sl ou cmatrix) ?
 
@@ -135,7 +135,7 @@ Si le logiciel est installé voici ce qui s'affiche :
 
 <img width="664" height="114" alt="installationcmatrix" src="https://github.com/user-attachments/assets/7031f767-a3ff-4e3c-88ea-e3ef9b91cec8" />
 
-###Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
+### Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
 Ethernet ? 
 -Avec la commande "ip a", on obtient les informations de l'adresse IP, le masque et l'adresse MAC :
 
@@ -167,17 +167,17 @@ Ethernet ?
   
   14. Dans un navigateur, depuis votre poste de travail école, accédez à http://checkip.dyndns.org
 
-###Q11. Qu’est-ce qui s’affiche en retour ? 
+### Q11. Qu’est-ce qui s’affiche en retour ? 
 Commentez.
 
   16. Sur votre BBG, utilisez la commande suivante :
   wget -qO- http://checkip.dyndns.org
 
-###Q12. Expliquez ce que fait cette commande.
+### Q12. Expliquez ce que fait cette commande.
 Qu’est-ce qui s’affiche en retour ? 
 Quel est format de la réponse ? 
 Faites le parallèle avec la réponse à la Q11.
 
-###Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
+### Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
 Commentez
 
