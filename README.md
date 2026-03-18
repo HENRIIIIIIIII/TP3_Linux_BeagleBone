@@ -25,19 +25,21 @@ https://wiki.seeedstudio.com/BeagleBone_Green/
      
      <img width="657" height="339" alt="Mot de passe" src="https://github.com/user-attachments/assets/9a135ea3-7054-4790-8e1f-6d3f37f66028" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
 
 -Le protocole étais selectioné dans putty et est le protocole SSH.
 -PuTTY utilise SSH pour ouvrir un terminal sécurisé (Secure Shell).
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
 ### Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?
 
 -Le SSH est un protocole qui s'appuie sur le TCP (couche 4) et les applications (en couche 5).
 -Donc il se trouve dans les couches 4-5.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port utilisé côté serveur
 
 -Il s'appuie sur le protocole TCP.
@@ -71,7 +73,8 @@ celle inscrite sur la BeagleBone : 10.228.134.227
 
 <img width="452" height="444" alt="config_Adressestatique" src="https://github.com/user-attachments/assets/253a8817-25d7-458f-8429-64b9f777b0f4" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis 
 une autre machine connectée au même réseau ?
 
@@ -84,7 +87,8 @@ une autre machine connectée au même réseau ?
   nmap <adresse_IP>
   (« Network Mapper ») est un outil open source d'exploration réseau et d'audit de sécurité source: https://nmap.org/man/fr/index.html#man-description
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
 Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
@@ -98,7 +102,8 @@ Le repertoire est donc le repertoire du user
   10. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY
   X et Y représentent vos initiales si vous êtes en binômes.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ?
 Qui a les droits d’écriture dessus ? 
 
@@ -118,14 +123,16 @@ Seul l'utilisateur (debian) a les droits d'écriture dans ce répertoire
 
 <img width="667" height="414" alt="image" src="https://github.com/user-attachments/assets/9e262e5e-4c17-4cb7-a218-37ae3d683913" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ###Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?
 
 -Le contrôle peut être effectué avec la commande "cat" + nom du fichier.txt :
 
 <img width="450" height="52" alt="contenudufichier" src="https://github.com/user-attachments/assets/bf72fe6e-7d38-46c1-bc1b-4e9c89781d01" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
 sl ou cmatrix) ?
@@ -143,7 +150,8 @@ Si le logiciel est installé voici ce qui s'affiche :
 
 <img width="664" height="114" alt="installationcmatrix" src="https://github.com/user-attachments/assets/7031f767-a3ff-4e3c-88ea-e3ef9b91cec8" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau 
 Ethernet ? 
 -Avec la commande "ip a", on obtient les informations de l'adresse IP, le masque et l'adresse MAC :
@@ -176,7 +184,8 @@ Ethernet ?
   
   14. Dans un navigateur, depuis votre poste de travail école, accédez à http://checkip.dyndns.org
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q11. Qu’est-ce qui s’affiche en retour ? 
 Commentez.
 
@@ -191,7 +200,8 @@ source: https://www.gnu.org/software/wget/
 
 <img width="682" height="86" alt="image" src="https://github.com/user-attachments/assets/a2bd3854-5ff0-4b13-b7a6-be32ba3dbe04" />
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q12. Expliquez ce que fait cette commande.
 
 Qu’est-ce qui s’affiche en retour ? 
@@ -211,7 +221,8 @@ Faites le parallèle avec la réponse à la Q11.
 
 Le format et en element HTML, code source complet de la page.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
+---
+
 ### Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
 Commentez
 
