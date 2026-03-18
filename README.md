@@ -17,7 +17,8 @@ Q1. Comment pouvez-vous déterminer cette adresse IP ?
      -Inscire l'adresse IP scannée précédemment dans PuTTY
      <img width="459" height="444" alt="image" src="https://github.com/user-attachments/assets/b78f4022-5f7f-4794-ab28-602a6a0a7e97" />
      
-     -Une fois la BeagleBone connectée, il faut ecrire le nom d'utilisateur "debian" ainsi que le mot de passe "temppwd" 
+     -Une fois la BeagleBone connectée, il faut ecrire le nom d'utilisateur "debian"
+     ainsi que le mot de passe "temppwd" 
      <img width="657" height="339" alt="image" src="https://github.com/user-attachments/assets/faaf27b9-446c-4d26-b2ae-3666825b75a9" />
 
 Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?
@@ -47,7 +48,8 @@ Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port ut
   DNS=10.228.146.6 10.228.146.7
   DHCP=no
 
-  -Voici le fichier de configuration avec le contenu demandé pour régler une adresse IP statique
+  -Voici le fichier de configuration avec le contenu demandé pour régler 
+  une adresse IP statique
   <img width="661" height="418" alt="image" src="https://github.com/user-attachments/assets/ddad2706-4698-46b3-a7a0-438a2fcc35ca" />
 
   8. Sauvegardez le fichier et redémarrez le BBG :
@@ -66,7 +68,8 @@ une autre machine connectée au même réseau ?
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ? 
 Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
--La commande a utiliser pour savoir dans quel répertoire on se trouve est "pwd -P" elle affichera le contenu ci-dessous :
+-La commande a utiliser pour savoir dans quel répertoire on se trouve est "pwd -P" 
+elle affichera le contenu ci-dessous :
 <img width="238" height="55" alt="image" src="https://github.com/user-attachments/assets/b56351d0-f16a-4516-9eaa-b8b526379dcb" />
 
 debian = User
@@ -100,7 +103,8 @@ Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ?
 Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec 
 sl ou cmatrix) ?
 
--Pour tester si un logiciel est installé, il faut utiliser la commande "which cmatrix". Si le logiciel est installé voici ce qui s'affiche :
+-Pour tester si un logiciel est installé, il faut utiliser la commande "which cmatrix". 
+Si le logiciel est installé voici ce qui s'affiche :
 <img width="388" height="52" alt="image" src="https://github.com/user-attachments/assets/2c1cbc06-37b4-4334-a2d0-e50c7554e500" />
 
 -Si le logiciel n'est pas installé, il faut utiliser les commandes "sudo apt update" pour mettre a jour :
