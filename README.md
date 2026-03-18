@@ -170,14 +170,40 @@ Ethernet ?
 ### Q11. Qu’est-ce qui s’affiche en retour ? 
 Commentez.
 
+<img width="646" height="131" alt="image" src="https://github.com/user-attachments/assets/ecefcef7-588d-41fc-b970-e9c4abf1c8fd" />
+
+Le site nous donne l'adresse publique IP, pour accéder à l'internet.
+Current IP Address: 193.5.240.10 
+
   16. Sur votre BBG, utilisez la commande suivante :
   wget -qO- http://checkip.dyndns.org
+source: https://www.gnu.org/software/wget/
+
+<img width="682" height="86" alt="image" src="https://github.com/user-attachments/assets/a2bd3854-5ff0-4b13-b7a6-be32ba3dbe04" />
 
 ### Q12. Expliquez ce que fait cette commande.
+
 Qu’est-ce qui s’affiche en retour ? 
+
+Wget est pour télécharger/récupérer des fichiers ou contenus depuis Internet directement depuis le terminal.
+
+  - q correspond a "quiet"
+  - O "correspond a write document to file"  (wget --help)
+    
+Cette commande nous liste le code ou HTML pur du site, donc la page, le texte dans la page puis le résultat.
+<html><head><title> 
+sont des elements HTML 
+  source: https://www.w3schools.com/html/html_head.asp
+
 Quel est format de la réponse ? 
 Faites le parallèle avec la réponse à la Q11.
+
+Le format et en element HTML, code source complet de la page.
+
+![section](https://img.shields.io/badge/-Section%20Title-FF5733?style=for-the-badge)
 
 ### Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12. 
 Commentez
 
+Les IP sont identiques parce que notre ordinateur et notre BBG vont à travers notre routeur (NAT  ou Network Address Translation) pour accéder à l'internet.
+Mais leur adresse locale est différente de celle du PC.
