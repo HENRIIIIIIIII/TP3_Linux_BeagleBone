@@ -1,4 +1,5 @@
 # TP3_Linux_BeagleBone
+# Loïc Marmy / Henri Mott
 Documentation:
 https://wiki.seeedstudio.com/BeagleBone_Green/
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header"/>
