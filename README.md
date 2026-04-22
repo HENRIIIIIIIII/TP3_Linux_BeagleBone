@@ -229,3 +229,22 @@ Commentez
 
 Les IP sont identiques parce que notre ordinateur et notre BBG vont à travers notre routeur (NAT  ou Network Address Translation) pour accéder à l'internet.
 Mais leur adresse locale est différente de celle du PC.
+
+---
+
+### Q14. Lorsque vous connectez un capteur, qu’est-ce qui fait le lien entre ce dernier et l’OS (ici
+Linux) ?
+Comment déployez-vous cet élément pour le capteur SHT40 sur le BBG en Python?
+
+Le capteur de temperature communique avec le BBG en utilisant du I2C (Grove connectors), qui le passe aux driveur linux.
+
+On ajoute l'objet sht40 dans notre code, pour enable notre communication, et toutes les autres fonctions dans la librairie. 
+"sht40 = Sht4xI2cDevice(I2cConnection(LinuxI2cTransceiver('/dev/i2c-2')))"
+le "/dev/i2c-2" est où ces 2 divisés regardent pour transmettre leurs informations.
+---
+Configuration pour envoi de mail automatique
+<img width="577" height="454" alt="automatic config" src="https://github.com/user-attachments/assets/ba6640d8-9ae8-494b-ad78-27c54bf44f73" />
+
+Résultat
+<img width="1638" height="209" alt="Temperature exceeded" src="https://github.com/user-attachments/assets/b2c3efe2-d9a6-40de-8c21-0a3233078c8d" />
+
